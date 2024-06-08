@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @Author: sky
+ * @Author: superxie
  * @Date: 2023/7/13 10:43
  * // * @Description: SimpleTaskInfo  调用发送接口成功后返回对应的信息，用于查看下发情况
  * @Version 1.0.0
