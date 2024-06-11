@@ -29,6 +29,9 @@ public class AnchorInfo {
      */
     private String messageId;
     /**
+     *git
+     *
+     *
      * 发送用户
      */
     private Set<String> ids;

@@ -14,7 +14,9 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class LogParam {
+public class
+
+LogParam {
 
     /**
      * 需要记录的日志
