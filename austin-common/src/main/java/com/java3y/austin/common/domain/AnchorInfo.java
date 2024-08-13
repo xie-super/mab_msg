@@ -1,5 +1,7 @@
 package com.java3y.austin.common.domain;
 
+
+import cn.hutool.core.collection.ConcurrentHashSet;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -54,5 +56,13 @@ public class AnchorInfo {
      * 日志生成时间
      */
     private long logTimestamp;
+
+    public static void main(String[] args) {
+        Set<String> set = new ConcurrentHashSet<>();
+        set.add("1");
+        System.out.println(set.contains("1"));
+
+
+    }
 
 }

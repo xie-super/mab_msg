@@ -12,7 +12,11 @@
     <artifactId>austin-support</artifactId>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.taobao.metaq.final</groupId>
+            <artifactId>metaq-client</artifactId>
+            <version>4.5.8.Final</version>
+        </dependency>
         <dependency>
             <groupId>com.java3y.austin</groupId>
             <artifactId>austin-common</artifactId>
