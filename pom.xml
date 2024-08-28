@@ -14,6 +14,7 @@
         <module>austin-cron</module>
         <module>austin-stream</module>
         <module>austin-data-house</module>
+        <module>dal</module>
     </modules>
 
     <parent>
@@ -24,7 +25,7 @@
     </parent>
 
     <groupId>com.java3y.austin</groupId>
-    <artifactId>austin</artifactId>
+    <artifactId>mab_msg</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>austin</name>
     <description>austin-message</description>
@@ -224,6 +225,40 @@
                 <artifactId>hades-nacos-starter</artifactId>
                 <version>1.0.4</version>
             </dependency>
+
+            <!-- MyBatis 核心库 -->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>3.5.7</version>
+            </dependency>
+
+            <!-- MyBatis-Spring 整合库 -->
+            <dependency>
+                <groupId>org.mybatis.spring</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>3.0.4</version>
+            </dependency>
+
+            <!-- MySQL JDBC 驱动 -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.29</version>
+            </dependency>
+
+            <!-- Spring 相关依赖 -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>5.3.22</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-jdbc</artifactId>
+                <version>5.3.22</version>
+            </dependency>
+
             <!--用hades规则引擎用nacos做演示，apollo注释掉-->
             <!--            <dependency>-->
             <!--                <groupId>io.github.ZhongFuCheng3y</groupId>-->

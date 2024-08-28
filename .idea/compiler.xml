@@ -16,6 +16,7 @@
         <module name="austin-cron" />
         <module name="austin-service-api-impl" />
         <module name="austin-common" />
+        <module name="dal" />
       </profile>
     </annotationProcessing>
   </component>
@@ -30,6 +31,7 @@
       <module name="austin-stream" options="-parameters" />
       <module name="austin-support" options="-parameters" />
       <module name="austin-web" options="-parameters" />
+      <module name="dal" options="-parameters" />
     </option>
   </component>
 </project>
